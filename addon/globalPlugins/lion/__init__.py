@@ -76,8 +76,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def script_ReadLiveOcr(self, gesture):
 		repeat = getLastScriptRepeatCount()
-		if repeat>=2:
-			ui.message("o sa vine profile")
+#		if repeat>=2:
+#			ui.message("o sa vine profile")
 			return
 		global active
 		
